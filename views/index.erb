@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <title>Coder.new</title>
+</head>
+<body>
+  <div class="container">
+
+    <div class="datetime">
+      <%= Time.now.strftime("%B %d, %Y") %>
+    </div>
+
+    <div class="form">
+      <form action="/result" method="POST">
+        
+        <div class="form1">
+          <input type="text" name="number" placeholder="Type phone number here" size="30" class="input">
+        </div>
+
+        <div class="form2">
+          <input type="text" name="keyword" placeholder="Type gif search keyword here" size="30" class="input">
+        </div>
+
+        <div class="button">
+          <input type="submit" class="btn btn-primary">
+        </div>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
+

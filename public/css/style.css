@@ -1,0 +1,175 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,100,200,300,500,700,900);
+
+html,body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* INDEX */
+
+.container {
+  height: 100% !important;
+  margin: 0;
+  text-align: center; 
+  background: white;
+}
+
+.datetime {
+  font-weight:800;
+  text-transform: uppercase;
+  font-family: 'Work Sans', sans-serif;
+  color: black;
+  text-align: left;
+  font-size: 1vmax;
+  margin-top: 2vh;
+  margin-left: 2vw;
+  position: fixed;
+}
+
+.form1 {
+  padding-top: 15%;
+}
+
+.form2 {
+  padding-top: 7%;
+}
+
+.input {
+  border-bottom: black 10px solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 20px 150px;
+  background: transparent;
+  color: #FF1D8E;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 3em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+input:focus {
+  outline:none;
+}
+input::-webkit-input-placeholder {
+  color: cyan !important;
+}
+input:-moz-placeholder { /* Firefox 18- */
+  color: cyan !important;  
+}
+input::-moz-placeholder {  /* Firefox 19+ */
+  color: cyan !important;  
+}
+ 
+input:-ms-input-placeholder {  
+  color: cyan !important;  
+}
+input:focus::-webkit-input-placeholder { 
+  opacity:0; 
+}
+input:focus:-moz-placeholder { 
+  opacity:0; /* FF 4-18 */
+} 
+input:focus::-moz-placeholder { 
+  opacity:0; /* FF 19+ */
+} 
+input:focus:-ms-input-placeholder { 
+  opacity:0; /* IE 10+ */
+} 
+
+/* BUTTON */
+.button {
+  padding-top: 5%;
+}
+
+.btn {
+  font-weight: 900;
+  font-family: 'Work Sans', sans-serif;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 3em;
+  border-radius: 0px;
+  border: black 10px solid;
+}
+.btn-primary {
+  color: black;
+  background-color: transparent;
+  border-color: black;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: black;
+  background-color: transparent;
+  border-color: black;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: transparent;
+  border-color: black;
+}
+.btn-primary .badge {
+  color: black;
+  background-color: transparent;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+  background: cyan;
+  border-color: black;
+  color: black;
+}
+
+/* RESULT */
+
+.container2 {
+  height: 100% !important;
+  margin: 0;
+  text-align: center; 
+}
+
+.result-text {
+  color: black;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 3em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.link {
+  color: cyan;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 3em;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-top: 5%;
+}
+
+
